@@ -46,7 +46,21 @@ add_executable(3DTestbed
         include/vendor/ImGUI/imgui_widgets.cpp
         include/vendor/ImGUI/imstb_rectpack.h
         include/vendor/ImGUI/imstb_textedit.h
-        include/vendor/ImGUI/imstb_truetype.h include/tests/TestClearcolor.h src/tests/TestClearColor.cpp src/tests/Test.cpp include/tests/Test.h src/tests/TestTexture2D.cpp include/tests/TestTexture2D.h)
+        include/vendor/ImGUI/imstb_truetype.h
+        include/tests/TestClearcolor.h
+        src/tests/TestClearColor.cpp
+        src/tests/Test.cpp
+        include/tests/Test.h
+        src/tests/TestTexture2D.cpp
+        include/tests/TestTexture2D.h
+        src/tests/Test3DScene.cpp
+        include/tests/Test3DScene.h
+        include/tests/geometries/geometry.h
+        src/tests/geometries/geometry.cpp
+        include/tests/geometries/sphere.h
+        src/tests/geometries/sphere.cpp
+        include/tests/geometries/cylinder.h
+        src/tests/geometries/cylinder.cpp)
 
 
 

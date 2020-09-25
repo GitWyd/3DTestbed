@@ -64,16 +64,16 @@ RM = /home/ron/bin/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ron/CLionProjects/MyGLTutorial
+CMAKE_SOURCE_DIR = /home/ron/CLionProjects/3DTestbed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ron/CLionProjects/MyGLTutorial/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ron/CLionProjects/3DTestbed/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/MyGLTutorial.dir/all
+all: CMakeFiles/3DTestbed.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/MyGLTutorial.dir/clean
+clean: CMakeFiles/3DTestbed.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MyGLTutorial.dir
+# Target rules for target CMakeFiles/3DTestbed.dir
 
 # All Build rule for target.
-CMakeFiles/MyGLTutorial.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target MyGLTutorial"
-.PHONY : CMakeFiles/MyGLTutorial.dir/all
+CMakeFiles/3DTestbed.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target 3DTestbed"
+.PHONY : CMakeFiles/3DTestbed.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MyGLTutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/CMakeFiles 19
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyGLTutorial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/MyGLTutorial.dir/rule
+CMakeFiles/3DTestbed.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles 23
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3DTestbed.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/3DTestbed.dir/rule
 
 # Convenience name for target.
-MyGLTutorial: CMakeFiles/MyGLTutorial.dir/rule
+3DTestbed: CMakeFiles/3DTestbed.dir/rule
 
-.PHONY : MyGLTutorial
+.PHONY : 3DTestbed
 
 # clean rule for target.
-CMakeFiles/MyGLTutorial.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/clean
-.PHONY : CMakeFiles/MyGLTutorial.dir/clean
+CMakeFiles/3DTestbed.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/clean
+.PHONY : CMakeFiles/3DTestbed.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

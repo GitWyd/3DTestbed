@@ -68,24 +68,13 @@ RM = /home/ron/bin/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ron/CLionProjects/MyGLTutorial
+CMAKE_SOURCE_DIR = /home/ron/CLionProjects/3DTestbed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ron/CLionProjects/MyGLTutorial/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ron/CLionProjects/3DTestbed/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ron/bin/clion-2020.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -98,11 +87,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/ron/bin/clion-2020.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/CMakeFiles /home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles /home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyGLTutorial
+# Target rules for targets named 3DTestbed
 
 # Build rule for target.
-MyGLTutorial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyGLTutorial
-.PHONY : MyGLTutorial
+3DTestbed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3DTestbed
+.PHONY : 3DTestbed
 
 # fast build rule for target.
-MyGLTutorial/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/build
-.PHONY : MyGLTutorial/fast
+3DTestbed/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/build
+.PHONY : 3DTestbed/fast
 
 include/vendor/ImGUI/imgui.o: include/vendor/ImGUI/imgui.cpp.o
 
@@ -149,7 +149,7 @@ include/vendor/ImGUI/imgui.o: include/vendor/ImGUI/imgui.cpp.o
 
 # target to build an object file
 include/vendor/ImGUI/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.o
 .PHONY : include/vendor/ImGUI/imgui.cpp.o
 
 include/vendor/ImGUI/imgui.i: include/vendor/ImGUI/imgui.cpp.i
@@ -158,7 +158,7 @@ include/vendor/ImGUI/imgui.i: include/vendor/ImGUI/imgui.cpp.i
 
 # target to preprocess a source file
 include/vendor/ImGUI/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.i
 .PHONY : include/vendor/ImGUI/imgui.cpp.i
 
 include/vendor/ImGUI/imgui.s: include/vendor/ImGUI/imgui.cpp.s
@@ -167,7 +167,7 @@ include/vendor/ImGUI/imgui.s: include/vendor/ImGUI/imgui.cpp.s
 
 # target to generate assembly for a file
 include/vendor/ImGUI/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.s
 .PHONY : include/vendor/ImGUI/imgui.cpp.s
 
 include/vendor/ImGUI/imgui_demo.o: include/vendor/ImGUI/imgui_demo.cpp.o
@@ -176,7 +176,7 @@ include/vendor/ImGUI/imgui_demo.o: include/vendor/ImGUI/imgui_demo.cpp.o
 
 # target to build an object file
 include/vendor/ImGUI/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.o
 .PHONY : include/vendor/ImGUI/imgui_demo.cpp.o
 
 include/vendor/ImGUI/imgui_demo.i: include/vendor/ImGUI/imgui_demo.cpp.i
@@ -185,7 +185,7 @@ include/vendor/ImGUI/imgui_demo.i: include/vendor/ImGUI/imgui_demo.cpp.i
 
 # target to preprocess a source file
 include/vendor/ImGUI/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.i
 .PHONY : include/vendor/ImGUI/imgui_demo.cpp.i
 
 include/vendor/ImGUI/imgui_demo.s: include/vendor/ImGUI/imgui_demo.cpp.s
@@ -194,7 +194,7 @@ include/vendor/ImGUI/imgui_demo.s: include/vendor/ImGUI/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 include/vendor/ImGUI/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.s
 .PHONY : include/vendor/ImGUI/imgui_demo.cpp.s
 
 include/vendor/ImGUI/imgui_draw.o: include/vendor/ImGUI/imgui_draw.cpp.o
@@ -203,7 +203,7 @@ include/vendor/ImGUI/imgui_draw.o: include/vendor/ImGUI/imgui_draw.cpp.o
 
 # target to build an object file
 include/vendor/ImGUI/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.o
 .PHONY : include/vendor/ImGUI/imgui_draw.cpp.o
 
 include/vendor/ImGUI/imgui_draw.i: include/vendor/ImGUI/imgui_draw.cpp.i
@@ -212,7 +212,7 @@ include/vendor/ImGUI/imgui_draw.i: include/vendor/ImGUI/imgui_draw.cpp.i
 
 # target to preprocess a source file
 include/vendor/ImGUI/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.i
 .PHONY : include/vendor/ImGUI/imgui_draw.cpp.i
 
 include/vendor/ImGUI/imgui_draw.s: include/vendor/ImGUI/imgui_draw.cpp.s
@@ -221,7 +221,7 @@ include/vendor/ImGUI/imgui_draw.s: include/vendor/ImGUI/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 include/vendor/ImGUI/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.s
 .PHONY : include/vendor/ImGUI/imgui_draw.cpp.s
 
 include/vendor/ImGUI/imgui_impl_glfw.o: include/vendor/ImGUI/imgui_impl_glfw.cpp.o
@@ -230,7 +230,7 @@ include/vendor/ImGUI/imgui_impl_glfw.o: include/vendor/ImGUI/imgui_impl_glfw.cpp
 
 # target to build an object file
 include/vendor/ImGUI/imgui_impl_glfw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.o
 .PHONY : include/vendor/ImGUI/imgui_impl_glfw.cpp.o
 
 include/vendor/ImGUI/imgui_impl_glfw.i: include/vendor/ImGUI/imgui_impl_glfw.cpp.i
@@ -239,7 +239,7 @@ include/vendor/ImGUI/imgui_impl_glfw.i: include/vendor/ImGUI/imgui_impl_glfw.cpp
 
 # target to preprocess a source file
 include/vendor/ImGUI/imgui_impl_glfw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.i
 .PHONY : include/vendor/ImGUI/imgui_impl_glfw.cpp.i
 
 include/vendor/ImGUI/imgui_impl_glfw.s: include/vendor/ImGUI/imgui_impl_glfw.cpp.s
@@ -248,7 +248,7 @@ include/vendor/ImGUI/imgui_impl_glfw.s: include/vendor/ImGUI/imgui_impl_glfw.cpp
 
 # target to generate assembly for a file
 include/vendor/ImGUI/imgui_impl_glfw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.s
 .PHONY : include/vendor/ImGUI/imgui_impl_glfw.cpp.s
 
 include/vendor/ImGUI/imgui_impl_opengl3.o: include/vendor/ImGUI/imgui_impl_opengl3.cpp.o
@@ -257,7 +257,7 @@ include/vendor/ImGUI/imgui_impl_opengl3.o: include/vendor/ImGUI/imgui_impl_openg
 
 # target to build an object file
 include/vendor/ImGUI/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.o
 .PHONY : include/vendor/ImGUI/imgui_impl_opengl3.cpp.o
 
 include/vendor/ImGUI/imgui_impl_opengl3.i: include/vendor/ImGUI/imgui_impl_opengl3.cpp.i
@@ -266,7 +266,7 @@ include/vendor/ImGUI/imgui_impl_opengl3.i: include/vendor/ImGUI/imgui_impl_openg
 
 # target to preprocess a source file
 include/vendor/ImGUI/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.i
 .PHONY : include/vendor/ImGUI/imgui_impl_opengl3.cpp.i
 
 include/vendor/ImGUI/imgui_impl_opengl3.s: include/vendor/ImGUI/imgui_impl_opengl3.cpp.s
@@ -275,7 +275,7 @@ include/vendor/ImGUI/imgui_impl_opengl3.s: include/vendor/ImGUI/imgui_impl_openg
 
 # target to generate assembly for a file
 include/vendor/ImGUI/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.s
 .PHONY : include/vendor/ImGUI/imgui_impl_opengl3.cpp.s
 
 include/vendor/ImGUI/imgui_widgets.o: include/vendor/ImGUI/imgui_widgets.cpp.o
@@ -284,7 +284,7 @@ include/vendor/ImGUI/imgui_widgets.o: include/vendor/ImGUI/imgui_widgets.cpp.o
 
 # target to build an object file
 include/vendor/ImGUI/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_widgets.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.o
 .PHONY : include/vendor/ImGUI/imgui_widgets.cpp.o
 
 include/vendor/ImGUI/imgui_widgets.i: include/vendor/ImGUI/imgui_widgets.cpp.i
@@ -293,7 +293,7 @@ include/vendor/ImGUI/imgui_widgets.i: include/vendor/ImGUI/imgui_widgets.cpp.i
 
 # target to preprocess a source file
 include/vendor/ImGUI/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.i
 .PHONY : include/vendor/ImGUI/imgui_widgets.cpp.i
 
 include/vendor/ImGUI/imgui_widgets.s: include/vendor/ImGUI/imgui_widgets.cpp.s
@@ -302,7 +302,7 @@ include/vendor/ImGUI/imgui_widgets.s: include/vendor/ImGUI/imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 include/vendor/ImGUI/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/ImGUI/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.s
 .PHONY : include/vendor/ImGUI/imgui_widgets.cpp.s
 
 include/vendor/stb_image/stb_image.o: include/vendor/stb_image/stb_image.cpp.o
@@ -311,7 +311,7 @@ include/vendor/stb_image/stb_image.o: include/vendor/stb_image/stb_image.cpp.o
 
 # target to build an object file
 include/vendor/stb_image/stb_image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/stb_image/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.o
 .PHONY : include/vendor/stb_image/stb_image.cpp.o
 
 include/vendor/stb_image/stb_image.i: include/vendor/stb_image/stb_image.cpp.i
@@ -320,7 +320,7 @@ include/vendor/stb_image/stb_image.i: include/vendor/stb_image/stb_image.cpp.i
 
 # target to preprocess a source file
 include/vendor/stb_image/stb_image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/stb_image/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.i
 .PHONY : include/vendor/stb_image/stb_image.cpp.i
 
 include/vendor/stb_image/stb_image.s: include/vendor/stb_image/stb_image.cpp.s
@@ -329,7 +329,7 @@ include/vendor/stb_image/stb_image.s: include/vendor/stb_image/stb_image.cpp.s
 
 # target to generate assembly for a file
 include/vendor/stb_image/stb_image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/include/vendor/stb_image/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.s
 .PHONY : include/vendor/stb_image/stb_image.cpp.s
 
 src/Application.o: src/Application.cpp.o
@@ -338,7 +338,7 @@ src/Application.o: src/Application.cpp.o
 
 # target to build an object file
 src/Application.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Application.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Application.cpp.o
 .PHONY : src/Application.cpp.o
 
 src/Application.i: src/Application.cpp.i
@@ -347,7 +347,7 @@ src/Application.i: src/Application.cpp.i
 
 # target to preprocess a source file
 src/Application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Application.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Application.cpp.i
 .PHONY : src/Application.cpp.i
 
 src/Application.s: src/Application.cpp.s
@@ -356,7 +356,7 @@ src/Application.s: src/Application.cpp.s
 
 # target to generate assembly for a file
 src/Application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Application.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
 src/IndexBuffer.o: src/IndexBuffer.cpp.o
@@ -365,7 +365,7 @@ src/IndexBuffer.o: src/IndexBuffer.cpp.o
 
 # target to build an object file
 src/IndexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/IndexBuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.o
 .PHONY : src/IndexBuffer.cpp.o
 
 src/IndexBuffer.i: src/IndexBuffer.cpp.i
@@ -374,7 +374,7 @@ src/IndexBuffer.i: src/IndexBuffer.cpp.i
 
 # target to preprocess a source file
 src/IndexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/IndexBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.i
 .PHONY : src/IndexBuffer.cpp.i
 
 src/IndexBuffer.s: src/IndexBuffer.cpp.s
@@ -383,7 +383,7 @@ src/IndexBuffer.s: src/IndexBuffer.cpp.s
 
 # target to generate assembly for a file
 src/IndexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/IndexBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.s
 .PHONY : src/IndexBuffer.cpp.s
 
 src/Renderer.o: src/Renderer.cpp.o
@@ -392,7 +392,7 @@ src/Renderer.o: src/Renderer.cpp.o
 
 # target to build an object file
 src/Renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Renderer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Renderer.cpp.o
 .PHONY : src/Renderer.cpp.o
 
 src/Renderer.i: src/Renderer.cpp.i
@@ -401,7 +401,7 @@ src/Renderer.i: src/Renderer.cpp.i
 
 # target to preprocess a source file
 src/Renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Renderer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Renderer.cpp.i
 .PHONY : src/Renderer.cpp.i
 
 src/Renderer.s: src/Renderer.cpp.s
@@ -410,7 +410,7 @@ src/Renderer.s: src/Renderer.cpp.s
 
 # target to generate assembly for a file
 src/Renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Renderer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
 src/Shader.o: src/Shader.cpp.o
@@ -419,7 +419,7 @@ src/Shader.o: src/Shader.cpp.o
 
 # target to build an object file
 src/Shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Shader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Shader.cpp.o
 .PHONY : src/Shader.cpp.o
 
 src/Shader.i: src/Shader.cpp.i
@@ -428,7 +428,7 @@ src/Shader.i: src/Shader.cpp.i
 
 # target to preprocess a source file
 src/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Shader.cpp.i
 .PHONY : src/Shader.cpp.i
 
 src/Shader.s: src/Shader.cpp.s
@@ -437,7 +437,7 @@ src/Shader.s: src/Shader.cpp.s
 
 # target to generate assembly for a file
 src/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
 src/Texture.o: src/Texture.cpp.o
@@ -446,7 +446,7 @@ src/Texture.o: src/Texture.cpp.o
 
 # target to build an object file
 src/Texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Texture.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Texture.cpp.o
 .PHONY : src/Texture.cpp.o
 
 src/Texture.i: src/Texture.cpp.i
@@ -455,7 +455,7 @@ src/Texture.i: src/Texture.cpp.i
 
 # target to preprocess a source file
 src/Texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Texture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Texture.cpp.i
 .PHONY : src/Texture.cpp.i
 
 src/Texture.s: src/Texture.cpp.s
@@ -464,7 +464,7 @@ src/Texture.s: src/Texture.cpp.s
 
 # target to generate assembly for a file
 src/Texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/Texture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/Texture.cpp.s
 .PHONY : src/Texture.cpp.s
 
 src/VertexArray.o: src/VertexArray.cpp.o
@@ -473,7 +473,7 @@ src/VertexArray.o: src/VertexArray.cpp.o
 
 # target to build an object file
 src/VertexArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/VertexArray.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.o
 .PHONY : src/VertexArray.cpp.o
 
 src/VertexArray.i: src/VertexArray.cpp.i
@@ -482,7 +482,7 @@ src/VertexArray.i: src/VertexArray.cpp.i
 
 # target to preprocess a source file
 src/VertexArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/VertexArray.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.i
 .PHONY : src/VertexArray.cpp.i
 
 src/VertexArray.s: src/VertexArray.cpp.s
@@ -491,7 +491,7 @@ src/VertexArray.s: src/VertexArray.cpp.s
 
 # target to generate assembly for a file
 src/VertexArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/VertexArray.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.s
 .PHONY : src/VertexArray.cpp.s
 
 src/VertexBuffer.o: src/VertexBuffer.cpp.o
@@ -500,7 +500,7 @@ src/VertexBuffer.o: src/VertexBuffer.cpp.o
 
 # target to build an object file
 src/VertexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/VertexBuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.o
 .PHONY : src/VertexBuffer.cpp.o
 
 src/VertexBuffer.i: src/VertexBuffer.cpp.i
@@ -509,7 +509,7 @@ src/VertexBuffer.i: src/VertexBuffer.cpp.i
 
 # target to preprocess a source file
 src/VertexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/VertexBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.i
 .PHONY : src/VertexBuffer.cpp.i
 
 src/VertexBuffer.s: src/VertexBuffer.cpp.s
@@ -518,7 +518,7 @@ src/VertexBuffer.s: src/VertexBuffer.cpp.s
 
 # target to generate assembly for a file
 src/VertexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/VertexBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.s
 .PHONY : src/VertexBuffer.cpp.s
 
 src/VertexBufferLayout.o: src/VertexBufferLayout.cpp.o
@@ -527,7 +527,7 @@ src/VertexBufferLayout.o: src/VertexBufferLayout.cpp.o
 
 # target to build an object file
 src/VertexBufferLayout.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/VertexBufferLayout.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.o
 .PHONY : src/VertexBufferLayout.cpp.o
 
 src/VertexBufferLayout.i: src/VertexBufferLayout.cpp.i
@@ -536,7 +536,7 @@ src/VertexBufferLayout.i: src/VertexBufferLayout.cpp.i
 
 # target to preprocess a source file
 src/VertexBufferLayout.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/VertexBufferLayout.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.i
 .PHONY : src/VertexBufferLayout.cpp.i
 
 src/VertexBufferLayout.s: src/VertexBufferLayout.cpp.s
@@ -545,7 +545,7 @@ src/VertexBufferLayout.s: src/VertexBufferLayout.cpp.s
 
 # target to generate assembly for a file
 src/VertexBufferLayout.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/VertexBufferLayout.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.s
 .PHONY : src/VertexBufferLayout.cpp.s
 
 src/tests/Test.o: src/tests/Test.cpp.o
@@ -554,7 +554,7 @@ src/tests/Test.o: src/tests/Test.cpp.o
 
 # target to build an object file
 src/tests/Test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/tests/Test.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.o
 .PHONY : src/tests/Test.cpp.o
 
 src/tests/Test.i: src/tests/Test.cpp.i
@@ -563,7 +563,7 @@ src/tests/Test.i: src/tests/Test.cpp.i
 
 # target to preprocess a source file
 src/tests/Test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/tests/Test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.i
 .PHONY : src/tests/Test.cpp.i
 
 src/tests/Test.s: src/tests/Test.cpp.s
@@ -572,8 +572,35 @@ src/tests/Test.s: src/tests/Test.cpp.s
 
 # target to generate assembly for a file
 src/tests/Test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/tests/Test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.s
 .PHONY : src/tests/Test.cpp.s
+
+src/tests/Test3DScene.o: src/tests/Test3DScene.cpp.o
+
+.PHONY : src/tests/Test3DScene.o
+
+# target to build an object file
+src/tests/Test3DScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o
+.PHONY : src/tests/Test3DScene.cpp.o
+
+src/tests/Test3DScene.i: src/tests/Test3DScene.cpp.i
+
+.PHONY : src/tests/Test3DScene.i
+
+# target to preprocess a source file
+src/tests/Test3DScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.i
+.PHONY : src/tests/Test3DScene.cpp.i
+
+src/tests/Test3DScene.s: src/tests/Test3DScene.cpp.s
+
+.PHONY : src/tests/Test3DScene.s
+
+# target to generate assembly for a file
+src/tests/Test3DScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.s
+.PHONY : src/tests/Test3DScene.cpp.s
 
 src/tests/TestClearColor.o: src/tests/TestClearColor.cpp.o
 
@@ -581,7 +608,7 @@ src/tests/TestClearColor.o: src/tests/TestClearColor.cpp.o
 
 # target to build an object file
 src/tests/TestClearColor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/tests/TestClearColor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.o
 .PHONY : src/tests/TestClearColor.cpp.o
 
 src/tests/TestClearColor.i: src/tests/TestClearColor.cpp.i
@@ -590,7 +617,7 @@ src/tests/TestClearColor.i: src/tests/TestClearColor.cpp.i
 
 # target to preprocess a source file
 src/tests/TestClearColor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/tests/TestClearColor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.i
 .PHONY : src/tests/TestClearColor.cpp.i
 
 src/tests/TestClearColor.s: src/tests/TestClearColor.cpp.s
@@ -599,7 +626,7 @@ src/tests/TestClearColor.s: src/tests/TestClearColor.cpp.s
 
 # target to generate assembly for a file
 src/tests/TestClearColor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/tests/TestClearColor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.s
 .PHONY : src/tests/TestClearColor.cpp.s
 
 src/tests/TestTexture2D.o: src/tests/TestTexture2D.cpp.o
@@ -608,7 +635,7 @@ src/tests/TestTexture2D.o: src/tests/TestTexture2D.cpp.o
 
 # target to build an object file
 src/tests/TestTexture2D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/tests/TestTexture2D.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.o
 .PHONY : src/tests/TestTexture2D.cpp.o
 
 src/tests/TestTexture2D.i: src/tests/TestTexture2D.cpp.i
@@ -617,7 +644,7 @@ src/tests/TestTexture2D.i: src/tests/TestTexture2D.cpp.i
 
 # target to preprocess a source file
 src/tests/TestTexture2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/tests/TestTexture2D.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.i
 .PHONY : src/tests/TestTexture2D.cpp.i
 
 src/tests/TestTexture2D.s: src/tests/TestTexture2D.cpp.s
@@ -626,8 +653,89 @@ src/tests/TestTexture2D.s: src/tests/TestTexture2D.cpp.s
 
 # target to generate assembly for a file
 src/tests/TestTexture2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLTutorial.dir/build.make CMakeFiles/MyGLTutorial.dir/src/tests/TestTexture2D.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.s
 .PHONY : src/tests/TestTexture2D.cpp.s
+
+src/tests/geometries/cylinder.o: src/tests/geometries/cylinder.cpp.o
+
+.PHONY : src/tests/geometries/cylinder.o
+
+# target to build an object file
+src/tests/geometries/cylinder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o
+.PHONY : src/tests/geometries/cylinder.cpp.o
+
+src/tests/geometries/cylinder.i: src/tests/geometries/cylinder.cpp.i
+
+.PHONY : src/tests/geometries/cylinder.i
+
+# target to preprocess a source file
+src/tests/geometries/cylinder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.i
+.PHONY : src/tests/geometries/cylinder.cpp.i
+
+src/tests/geometries/cylinder.s: src/tests/geometries/cylinder.cpp.s
+
+.PHONY : src/tests/geometries/cylinder.s
+
+# target to generate assembly for a file
+src/tests/geometries/cylinder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.s
+.PHONY : src/tests/geometries/cylinder.cpp.s
+
+src/tests/geometries/geometry.o: src/tests/geometries/geometry.cpp.o
+
+.PHONY : src/tests/geometries/geometry.o
+
+# target to build an object file
+src/tests/geometries/geometry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o
+.PHONY : src/tests/geometries/geometry.cpp.o
+
+src/tests/geometries/geometry.i: src/tests/geometries/geometry.cpp.i
+
+.PHONY : src/tests/geometries/geometry.i
+
+# target to preprocess a source file
+src/tests/geometries/geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.i
+.PHONY : src/tests/geometries/geometry.cpp.i
+
+src/tests/geometries/geometry.s: src/tests/geometries/geometry.cpp.s
+
+.PHONY : src/tests/geometries/geometry.s
+
+# target to generate assembly for a file
+src/tests/geometries/geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.s
+.PHONY : src/tests/geometries/geometry.cpp.s
+
+src/tests/geometries/sphere.o: src/tests/geometries/sphere.cpp.o
+
+.PHONY : src/tests/geometries/sphere.o
+
+# target to build an object file
+src/tests/geometries/sphere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o
+.PHONY : src/tests/geometries/sphere.cpp.o
+
+src/tests/geometries/sphere.i: src/tests/geometries/sphere.cpp.i
+
+.PHONY : src/tests/geometries/sphere.i
+
+# target to preprocess a source file
+src/tests/geometries/sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.i
+.PHONY : src/tests/geometries/sphere.cpp.i
+
+src/tests/geometries/sphere.s: src/tests/geometries/sphere.cpp.s
+
+.PHONY : src/tests/geometries/sphere.s
+
+# target to generate assembly for a file
+src/tests/geometries/sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.s
+.PHONY : src/tests/geometries/sphere.cpp.s
 
 # Help Target
 help:
@@ -637,7 +745,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MyGLTutorial"
+	@echo "... 3DTestbed"
 	@echo "... include/vendor/ImGUI/imgui.o"
 	@echo "... include/vendor/ImGUI/imgui.i"
 	@echo "... include/vendor/ImGUI/imgui.s"
@@ -686,12 +794,24 @@ help:
 	@echo "... src/tests/Test.o"
 	@echo "... src/tests/Test.i"
 	@echo "... src/tests/Test.s"
+	@echo "... src/tests/Test3DScene.o"
+	@echo "... src/tests/Test3DScene.i"
+	@echo "... src/tests/Test3DScene.s"
 	@echo "... src/tests/TestClearColor.o"
 	@echo "... src/tests/TestClearColor.i"
 	@echo "... src/tests/TestClearColor.s"
 	@echo "... src/tests/TestTexture2D.o"
 	@echo "... src/tests/TestTexture2D.i"
 	@echo "... src/tests/TestTexture2D.s"
+	@echo "... src/tests/geometries/cylinder.o"
+	@echo "... src/tests/geometries/cylinder.i"
+	@echo "... src/tests/geometries/cylinder.s"
+	@echo "... src/tests/geometries/geometry.o"
+	@echo "... src/tests/geometries/geometry.i"
+	@echo "... src/tests/geometries/geometry.s"
+	@echo "... src/tests/geometries/sphere.o"
+	@echo "... src/tests/geometries/sphere.i"
+	@echo "... src/tests/geometries/sphere.s"
 .PHONY : help
 
 

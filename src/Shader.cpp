@@ -5,7 +5,8 @@
 #include "../include/Shader.h"
 
 Shader::Shader(): m_RendererID(0) {
-    m_RendererID = CreateShader(vertexShader, fragmentShader);
+    //m_RendererID = CreateShader(vertexShader, fragmentShader);
+    m_RendererID = CreateShader(vs_code, fs_code);
 }
 
 Shader::~Shader(){
@@ -30,8 +31,8 @@ unsigned int Shader::CompileShader(unsigned int type, const std::string & source
         // to avoid data allocation issue from variable, we do the below
         char * message = (char *) alloca(length * sizeof(char));
         glGetShaderInfoLog(id, length, &length, message);
-        std::cout << "Failed to compile " << (type == GL_VERTEX_SHADER ? "vertex" : "fragment") << " shader!" << std::endl;
-        std::cout << message << std::endl;
+        std::cerr << "Failed to compile " << (type == GL_VERTEX_SHADER ? "vertex" : "fragment") << " shader!" << std::endl;
+        std::cerr << message << std::endl;
         // cleanup failed shader
         glDeleteShader(id);
         return 0;
@@ -39,10 +40,10 @@ unsigned int Shader::CompileShader(unsigned int type, const std::string & source
 
     return id;
 }
-unsigned int Shader::CreateShader(const std::string& vertexShader, const std::string& fragmentShader){
+unsigned int Shader::CreateShader(const std::string& str_vs, const std::string& str_fs){
     unsigned int program = glCreateProgram();
-    unsigned int vs = CompileShader(GL_VERTEX_SHADER, vertexShader);
-    unsigned int fs = CompileShader(GL_FRAGMENT_SHADER, fragmentShader);
+    unsigned int vs = CompileShader(GL_VERTEX_SHADER, str_vs);
+    unsigned int fs = CompileShader(GL_FRAGMENT_SHADER, str_fs);
 
     /* attach shaders to the program */
     glAttachShader(program, vs);
@@ -65,16 +66,22 @@ void Shader::Bind() const {
 void Shader::Unbind() const {
     glUseProgram(0);
 }
-
-void Shader::SetUniform4f(const std::string &name, float v0, float v1, float v2, float v3) {
+void Shader::SetUniformf(const std::string &name, float value) {
     int location = GetUniformLocation(name);
     if (location != -1)
-        glUniform4f(location , v0, v1, v2, v3);
+        glUniform1f(location, value);
+
 }
 void Shader::SetUniformi(const std::string &name, int value) {
     int location = GetUniformLocation(name);
     if (location != -1)
         glUniform1i(location, value);
+}
+
+void Shader::SetUniform4f(const std::string &name, float v0, float v1, float v2, float v3) {
+    int location = GetUniformLocation(name);
+    if (location != -1)
+        glUniform4f(location , v0, v1, v2, v3);
 }
 void Shader::SetUniformMat4f(const std::string &name, const glm::mat4 matrix) {
     // (uniform location, nr_matrices provided, transpose_matrix?, pointer to first element)

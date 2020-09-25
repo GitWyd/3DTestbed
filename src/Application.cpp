@@ -26,6 +26,7 @@
 // include tests
 #include "../include/tests/TestClearcolor.h"
 #include "../include/tests/TestTexture2D.h"
+#include "../include/tests/Test3DScene.h"
 
 #define WINDOW_WIDTH 1280
 #define WINDOW_HEIGHT 720
@@ -91,8 +92,9 @@ int main(void)
         test::TestMenu * menu = new test::TestMenu(currentTest); // heap allocation
         currentTest = menu; // start off with the menu as the test to be run
         /** Populate Testt Menu */
-        menu->RegisterTest<test::TestClearColor>("Clear Color");
-        menu->RegisterTest<test::TestTexture2D>("Texture 2D");
+        menu->RegisterTest<test::Test3DScene>("3D Scene");
+        //menu->RegisterTest<test::TestClearColor>("Clear Color");
+        //menu->RegisterTest<test::TestTexture2D>("Texture 2D");
         while (!glfwWindowShouldClose(window))
         {
             /* Render here */

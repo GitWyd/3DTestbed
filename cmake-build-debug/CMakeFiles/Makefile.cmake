@@ -11,7 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
-  "../cmake/MyGLTutorial.h.in"
+  "../cmake/3DTestbed.h.in"
   "/home/ron/bin/clion-2020.2.1/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCInformation.cmake"
   "/home/ron/bin/clion-2020.2.1/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXInformation.cmake"
   "/home/ron/bin/clion-2020.2.1/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -62,5 +62,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/MyGLTutorial.dir/DependInfo.cmake"
+  "CMakeFiles/3DTestbed.dir/DependInfo.cmake"
   )
