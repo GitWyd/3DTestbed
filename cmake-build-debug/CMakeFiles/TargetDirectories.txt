@@ -1,0 +1,3 @@
+/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/CMakeFiles/MyGLTutorial.dir

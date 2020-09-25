@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyGLTutorial"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyGLTutorial">
+				<Option output="/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/MyGLTutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGLTutorial"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyGLTutorial/fast">
+				<Option output="/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/MyGLTutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGLTutorial/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ron/CLionProjects/MyGLTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/IndexBuffer.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/MyGLTutorial.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/Renderer.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/Shader.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/Texture.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/VertexArray.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/VertexBuffer.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/VertexBufferLayout.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/tests/Test.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/tests/TestClearcolor.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/tests/TestTexture2D.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imconfig.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui_demo.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui_draw.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui_impl_glfw.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui_impl_glfw.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui_impl_opengl3.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui_impl_opengl3.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui_internal.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imgui_widgets.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imstb_rectpack.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imstb_textedit.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/ImGUI/imstb_truetype.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/stb_image/stb_image.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/include/vendor/stb_image/stb_image.h">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/Application.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/IndexBuffer.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/Renderer.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/Shader.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/Texture.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/VertexArray.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/VertexBuffer.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/VertexBufferLayout.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/tests/Test.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/tests/TestClearColor.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/src/tests/TestTexture2D.cpp">
+			<Option target="MyGLTutorial"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/cmake/MyGLTutorial.h.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/../../../../usr/lib/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/../../../../usr/lib/cmake/glm/glmConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/ron/CLionProjects/MyGLTutorial/../../../../usr/lib/cmake/glm/glmTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

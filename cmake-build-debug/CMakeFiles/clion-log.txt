@@ -1,0 +1,8 @@
+/home/ron/bin/clion-2020.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ron/CLionProjects/MyGLTutorial
+-- OPENGL FOUND
+-- GLFW FOUND
+-- GLEW FOUND
+-- GLM FOUND
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ron/CLionProjects/MyGLTutorial/cmake-build-debug
