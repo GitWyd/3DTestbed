@@ -22,5 +22,4 @@ namespace titan{
     std::vector<float> Cylinder::getSideNormals() {
         return std::vector<float>();
     }
-
 }

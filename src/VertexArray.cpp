@@ -3,6 +3,7 @@
 //
 
 #include "../include/VertexArray.h"
+#include <iostream>
 
 VertexArray::VertexArray() {
     /* Vertex Array Objects
@@ -27,6 +28,7 @@ void VertexArray::addBuffer(const VertexBuffer &vb, const VertexBufferLayout &la
         glEnableVertexAttribArray(i); // must enable vertex attribute array before using it
         /* We bind the above array buffer to the Vertex Array at index 0 (you could have a different buffer at location 1)*/
         glVertexAttribPointer(i, element.count, element.type, element.normalized, layout.getStride(), (const void *) offset);
+        fprintf(stdout,"%d\n", offset);
         offset += element.count*VertexBufferElement::getSizeOfType(element.type);
     }
 

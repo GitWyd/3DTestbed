@@ -40,9 +40,9 @@ void Renderer::Draw(const VertexArray &va, const IndexBuffer &ib, const Shader &
     ib.Bind();
 
     // glDrawArrays(GL_TRIANGLES,0, 6);
-    glDrawElements(GL_TRIANGLES, ib.GetCount(), GL_UNSIGNED_INT, nullptr); // nullptr e.g. we already bound ibo
+    glDrawElements(GL_TRIANGLES, ib.GetCount(), GL_UNSIGNED_INT, 0); // nullptr e.g. we already bound ibo
 }
 
 void Renderer::Clear() const {
-    glClear(GL_COLOR_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }

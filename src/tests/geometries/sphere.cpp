@@ -52,6 +52,9 @@ void Sphere::ComputeVertices() {
             */
         }
     }
+    m_vertices_count = v_positions.size();
+    m_vertices_size = m_vertices_count * sizeof(float);
+    this->InterleaveVertices();
 }
 
 void Sphere::ComputeIndices() {
@@ -80,7 +83,8 @@ void Sphere::ComputeIndices() {
             }
         }
     }
+    m_indices_count = v_indices.size();
+    m_indices_size = m_indices_count * sizeof(unsigned int);
 }
-
 
 }

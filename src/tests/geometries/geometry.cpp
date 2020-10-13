@@ -29,9 +29,24 @@ namespace titan{
         v_indices.push_back(i2);
         v_indices.push_back(i3);
     }
+    void Geometry::addVertexVec3(glm::vec3 v){
+        v_positions.push_back(v.x);
+        v_positions.push_back(v.y);
+        v_positions.push_back(v.z);
+    }
+    void Geometry::addNormalVec3(glm::vec3 v){
+        v_normals.push_back(v.x);
+        v_normals.push_back(v.y);
+        v_normals.push_back(v.z);
+    }
+    void Geometry::addIndicesVec3(glm::vec3 v){
+        v_indices.push_back(v.x);
+        v_indices.push_back(v.y);
+        v_indices.push_back(v.z);
+    }
 
     std::vector<float>
-    Geometry::computeFaceNormal(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3,
+    Geometry::ComputeFaceNormal(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3,
                                 float z3) {
         const float EPSILON = 1e-7;
 
@@ -64,16 +79,28 @@ namespace titan{
 
         return normal;
     }
+    void Geometry::InterleaveVertices() {
+        if (m_vertices_count){
+            for(int i = 0; i < ( m_vertices_count ); i++){
+                v_interleavedVertices.push_back(v_positions[i*3]);
+                v_interleavedVertices.push_back(v_positions[i*3+1]);
+                v_interleavedVertices.push_back(v_positions[i*3+2]);
+                v_interleavedVertices.push_back(v_normals[i*3]);
+                v_interleavedVertices.push_back(v_normals[i*3+1]);
+                v_interleavedVertices.push_back(v_normals[i*3+2]);
+            }
+        }
+    }
 
 
     CUDA_GEOMETRY::CUDA_GEOMETRY(titan::Geometry &object) {
         v_positions = object.v_positions.data();
         v_normals = object.v_normals.data();
         indices = object.v_indices.data();
-        vertices_count = object.vertices_count;
-        indices_count = object.indices_count;
-        vertices_size = object.vertices_size;
-        indices_size = object.indices_size;
+        vertices_count = object.m_vertices_count;
+        indices_count = object.m_indices_count;
+        vertices_size = object.m_vertices_size;
+        indices_size = object.m_indices_size;
     }
 
 }

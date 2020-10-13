@@ -7,6 +7,7 @@
 #include "Test.h"
 #include "../Renderer.h"
 #include "geometries/sphere.h"
+#include "geometries/triangle.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -24,10 +25,13 @@ public:
     void OnRender() override;
     void OnImGuiRender() override;
 private:
+    float m_theta;
+
     glm::vec3 body_translationA;
     glm::vec3 body_translationB;
 
-    glm::mat4 m_Proj, m_View;
+    glm::mat4 m_matrixView, m_matrixModel, m_matrixModelView, m_matrixNormal;
+    glm::mat4 m_Proj, m_View, m_MVP;
 
     std::unique_ptr<VertexArray> m_VAO;
     std::unique_ptr<VertexBuffer> m_VertexBuffer;

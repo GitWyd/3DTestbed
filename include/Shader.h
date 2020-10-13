@@ -29,7 +29,6 @@ uniform vec4 materialAmbient;   // material ambient color
 uniform vec4 materialDiffuse;   // material diffuse color
 uniform vec4 materialSpecular;  // material specular color
 uniform float materialShininess;// material specular shiny
-
 // inputs
 in vec3 esVertex;
 in vec3 esNormal;
@@ -60,6 +59,7 @@ void main()
 
     // set frag color
     frag_color = vec4(color, materialDiffuse.a);
+    //frag_color = vec4(1,1,1, 1.0);
 }
 )glsl";
 

@@ -60,7 +60,10 @@ add_executable(3DTestbed
         include/tests/geometries/sphere.h
         src/tests/geometries/sphere.cpp
         include/tests/geometries/cylinder.h
-        src/tests/geometries/cylinder.cpp)
+        src/tests/geometries/cylinder.cpp
+        include/tests/geometries/triangle.h
+        src/tests/geometries/triangle.cpp
+        )
 
 
 
