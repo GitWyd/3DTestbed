@@ -68,10 +68,10 @@ RM = /home/ron/bin/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ron/CLionProjects/3DTestbed
+CMAKE_SOURCE_DIR = /home/ron/Downloads/3DTestbed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ron/CLionProjects/3DTestbed/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ron/Downloads/3DTestbed/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles /home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles /home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -737,6 +737,33 @@ src/tests/geometries/sphere.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.s
 .PHONY : src/tests/geometries/sphere.cpp.s
 
+src/tests/geometries/triangle.o: src/tests/geometries/triangle.cpp.o
+
+.PHONY : src/tests/geometries/triangle.o
+
+# target to build an object file
+src/tests/geometries/triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o
+.PHONY : src/tests/geometries/triangle.cpp.o
+
+src/tests/geometries/triangle.i: src/tests/geometries/triangle.cpp.i
+
+.PHONY : src/tests/geometries/triangle.i
+
+# target to preprocess a source file
+src/tests/geometries/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.i
+.PHONY : src/tests/geometries/triangle.cpp.i
+
+src/tests/geometries/triangle.s: src/tests/geometries/triangle.cpp.s
+
+.PHONY : src/tests/geometries/triangle.s
+
+# target to generate assembly for a file
+src/tests/geometries/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DTestbed.dir/build.make CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.s
+.PHONY : src/tests/geometries/triangle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -812,6 +839,9 @@ help:
 	@echo "... src/tests/geometries/sphere.o"
 	@echo "... src/tests/geometries/sphere.i"
 	@echo "... src/tests/geometries/sphere.s"
+	@echo "... src/tests/geometries/triangle.o"
+	@echo "... src/tests/geometries/triangle.i"
+	@echo "... src/tests/geometries/triangle.s"
 .PHONY : help
 
 

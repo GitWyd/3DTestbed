@@ -23,6 +23,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o"
   "CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o"
   "CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o"
+  "CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

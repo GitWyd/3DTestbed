@@ -63,10 +63,10 @@ RM = /home/ron/bin/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ron/CLionProjects/3DTestbed
+CMAKE_SOURCE_DIR = /home/ron/Downloads/3DTestbed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ron/CLionProjects/3DTestbed/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ron/Downloads/3DTestbed/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/3DTestbed.dir/depend.make
@@ -79,289 +79,302 @@ include CMakeFiles/3DTestbed.dir/flags.make
 
 CMakeFiles/3DTestbed.dir/src/Application.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/Application.cpp.o: ../src/Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3DTestbed.dir/src/Application.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/Application.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3DTestbed.dir/src/Application.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/Application.cpp.o -c /home/ron/Downloads/3DTestbed/src/Application.cpp
 
 CMakeFiles/3DTestbed.dir/src/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/Application.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/Application.cpp > CMakeFiles/3DTestbed.dir/src/Application.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/Application.cpp > CMakeFiles/3DTestbed.dir/src/Application.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/Application.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/Application.cpp -o CMakeFiles/3DTestbed.dir/src/Application.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/Application.cpp -o CMakeFiles/3DTestbed.dir/src/Application.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/VertexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.o -c /home/ron/Downloads/3DTestbed/src/VertexBuffer.cpp
 
 CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/VertexBuffer.cpp > CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/VertexBuffer.cpp > CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/VertexBuffer.cpp -o CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/VertexBuffer.cpp -o CMakeFiles/3DTestbed.dir/src/VertexBuffer.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/IndexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.o -c /home/ron/Downloads/3DTestbed/src/IndexBuffer.cpp
 
 CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/IndexBuffer.cpp > CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/IndexBuffer.cpp > CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/IndexBuffer.cpp -o CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/IndexBuffer.cpp -o CMakeFiles/3DTestbed.dir/src/IndexBuffer.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/Renderer.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3DTestbed.dir/src/Renderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/Renderer.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3DTestbed.dir/src/Renderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/Renderer.cpp.o -c /home/ron/Downloads/3DTestbed/src/Renderer.cpp
 
 CMakeFiles/3DTestbed.dir/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/Renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/Renderer.cpp > CMakeFiles/3DTestbed.dir/src/Renderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/Renderer.cpp > CMakeFiles/3DTestbed.dir/src/Renderer.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/Renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/Renderer.cpp -o CMakeFiles/3DTestbed.dir/src/Renderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/Renderer.cpp -o CMakeFiles/3DTestbed.dir/src/Renderer.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/VertexArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.o -c /home/ron/Downloads/3DTestbed/src/VertexArray.cpp
 
 CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/VertexArray.cpp > CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/VertexArray.cpp > CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/VertexArray.cpp -o CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/VertexArray.cpp -o CMakeFiles/3DTestbed.dir/src/VertexArray.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.o: ../src/VertexBufferLayout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/VertexBufferLayout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.o -c /home/ron/Downloads/3DTestbed/src/VertexBufferLayout.cpp
 
 CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/VertexBufferLayout.cpp > CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/VertexBufferLayout.cpp > CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/VertexBufferLayout.cpp -o CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/VertexBufferLayout.cpp -o CMakeFiles/3DTestbed.dir/src/VertexBufferLayout.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/Shader.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/Shader.cpp.o: ../src/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/3DTestbed.dir/src/Shader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/Shader.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/3DTestbed.dir/src/Shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/Shader.cpp.o -c /home/ron/Downloads/3DTestbed/src/Shader.cpp
 
 CMakeFiles/3DTestbed.dir/src/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/Shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/Shader.cpp > CMakeFiles/3DTestbed.dir/src/Shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/Shader.cpp > CMakeFiles/3DTestbed.dir/src/Shader.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/Shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/Shader.cpp -o CMakeFiles/3DTestbed.dir/src/Shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/Shader.cpp -o CMakeFiles/3DTestbed.dir/src/Shader.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/Texture.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/Texture.cpp.o: ../src/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/3DTestbed.dir/src/Texture.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/Texture.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/3DTestbed.dir/src/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/Texture.cpp.o -c /home/ron/Downloads/3DTestbed/src/Texture.cpp
 
 CMakeFiles/3DTestbed.dir/src/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/Texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/Texture.cpp > CMakeFiles/3DTestbed.dir/src/Texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/Texture.cpp > CMakeFiles/3DTestbed.dir/src/Texture.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/Texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/Texture.cpp -o CMakeFiles/3DTestbed.dir/src/Texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/Texture.cpp -o CMakeFiles/3DTestbed.dir/src/Texture.cpp.s
 
 CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.o: ../include/vendor/stb_image/stb_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.o -c /home/ron/CLionProjects/3DTestbed/include/vendor/stb_image/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.o -c /home/ron/Downloads/3DTestbed/include/vendor/stb_image/stb_image.cpp
 
 CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/include/vendor/stb_image/stb_image.cpp > CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/include/vendor/stb_image/stb_image.cpp > CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.i
 
 CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/include/vendor/stb_image/stb_image.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/include/vendor/stb_image/stb_image.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/stb_image/stb_image.cpp.s
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.o: ../include/vendor/ImGUI/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.o -c /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.o -c /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui.cpp
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.i
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui.cpp.s
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.o: ../include/vendor/ImGUI/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.o -c /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.o -c /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_demo.cpp
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_demo.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_demo.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.i
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_demo.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_demo.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_demo.cpp.s
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.o: ../include/vendor/ImGUI/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.o -c /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.o -c /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_draw.cpp
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_draw.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_draw.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.i
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_draw.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_draw.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_draw.cpp.s
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.o: ../include/vendor/ImGUI/imgui_impl_glfw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.o -c /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.o -c /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_impl_glfw.cpp
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_impl_glfw.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_impl_glfw.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.i
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_impl_glfw.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_impl_glfw.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_glfw.cpp.s
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.o: ../include/vendor/ImGUI/imgui_impl_opengl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.o -c /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.o -c /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_impl_opengl3.cpp
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_impl_opengl3.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_impl_opengl3.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.i
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_impl_opengl3.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_impl_opengl3.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_impl_opengl3.cpp.s
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.o: ../include/vendor/ImGUI/imgui_widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.o -c /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.o -c /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_widgets.cpp
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_widgets.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_widgets.cpp > CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.i
 
 CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/include/vendor/ImGUI/imgui_widgets.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/include/vendor/ImGUI/imgui_widgets.cpp -o CMakeFiles/3DTestbed.dir/include/vendor/ImGUI/imgui_widgets.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.o: ../src/tests/TestClearColor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/tests/TestClearColor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.o -c /home/ron/Downloads/3DTestbed/src/tests/TestClearColor.cpp
 
 CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/tests/TestClearColor.cpp > CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/tests/TestClearColor.cpp > CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/tests/TestClearColor.cpp -o CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/tests/TestClearColor.cpp -o CMakeFiles/3DTestbed.dir/src/tests/TestClearColor.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.o: ../src/tests/Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/tests/Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.o -c /home/ron/Downloads/3DTestbed/src/tests/Test.cpp
 
 CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/tests/Test.cpp > CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/tests/Test.cpp > CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/tests/Test.cpp -o CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/tests/Test.cpp -o CMakeFiles/3DTestbed.dir/src/tests/Test.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.o: ../src/tests/TestTexture2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/tests/TestTexture2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.o -c /home/ron/Downloads/3DTestbed/src/tests/TestTexture2D.cpp
 
 CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/tests/TestTexture2D.cpp > CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/tests/TestTexture2D.cpp > CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/tests/TestTexture2D.cpp -o CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/tests/TestTexture2D.cpp -o CMakeFiles/3DTestbed.dir/src/tests/TestTexture2D.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: ../src/tests/Test3DScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/tests/Test3DScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o -c /home/ron/Downloads/3DTestbed/src/tests/Test3DScene.cpp
 
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/tests/Test3DScene.cpp > CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/tests/Test3DScene.cpp > CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/tests/Test3DScene.cpp -o CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/tests/Test3DScene.cpp -o CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o: ../src/tests/geometries/geometry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/tests/geometries/geometry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o -c /home/ron/Downloads/3DTestbed/src/tests/geometries/geometry.cpp
 
 CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/tests/geometries/geometry.cpp > CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/tests/geometries/geometry.cpp > CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/tests/geometries/geometry.cpp -o CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/tests/geometries/geometry.cpp -o CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o: ../src/tests/geometries/sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/tests/geometries/sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o -c /home/ron/Downloads/3DTestbed/src/tests/geometries/sphere.cpp
 
 CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/tests/geometries/sphere.cpp > CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/tests/geometries/sphere.cpp > CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/tests/geometries/sphere.cpp -o CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/tests/geometries/sphere.cpp -o CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.s
 
 CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
 CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o: ../src/tests/geometries/cylinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o -c /home/ron/CLionProjects/3DTestbed/src/tests/geometries/cylinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o -c /home/ron/Downloads/3DTestbed/src/tests/geometries/cylinder.cpp
 
 CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/CLionProjects/3DTestbed/src/tests/geometries/cylinder.cpp > CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/tests/geometries/cylinder.cpp > CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.i
 
 CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/CLionProjects/3DTestbed/src/tests/geometries/cylinder.cpp -o CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/tests/geometries/cylinder.cpp -o CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.s
+
+CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o: CMakeFiles/3DTestbed.dir/flags.make
+CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o: ../src/tests/geometries/triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o -c /home/ron/Downloads/3DTestbed/src/tests/geometries/triangle.cpp
+
+CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/Downloads/3DTestbed/src/tests/geometries/triangle.cpp > CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.i
+
+CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/Downloads/3DTestbed/src/tests/geometries/triangle.cpp -o CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.s
 
 # Object files for target 3DTestbed
 3DTestbed_OBJECTS = \
@@ -386,7 +399,8 @@ CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.s: cmake_force
 "CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o" \
 "CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o" \
 "CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o" \
-"CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o"
+"CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o" \
+"CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o"
 
 # External object files for target 3DTestbed
 3DTestbed_EXTERNAL_OBJECTS =
@@ -413,11 +427,12 @@ CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.s: cmake_force
 3DTestbed: CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o
 3DTestbed: CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o
 3DTestbed: CMakeFiles/3DTestbed.dir/src/tests/geometries/cylinder.cpp.o
+3DTestbed: CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o
 3DTestbed: CMakeFiles/3DTestbed.dir/build.make
 3DTestbed: /usr/lib/x86_64-linux-gnu/libglfw.so.3.2
 3DTestbed: /usr/lib/x86_64-linux-gnu/libGLEW.so
 3DTestbed: CMakeFiles/3DTestbed.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable 3DTestbed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable 3DTestbed"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3DTestbed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -430,6 +445,6 @@ CMakeFiles/3DTestbed.dir/clean:
 .PHONY : CMakeFiles/3DTestbed.dir/clean
 
 CMakeFiles/3DTestbed.dir/depend:
-	cd /home/ron/CLionProjects/3DTestbed/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ron/CLionProjects/3DTestbed /home/ron/CLionProjects/3DTestbed /home/ron/CLionProjects/3DTestbed/cmake-build-debug /home/ron/CLionProjects/3DTestbed/cmake-build-debug /home/ron/CLionProjects/3DTestbed/cmake-build-debug/CMakeFiles/3DTestbed.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ron/Downloads/3DTestbed/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ron/Downloads/3DTestbed /home/ron/Downloads/3DTestbed /home/ron/Downloads/3DTestbed/cmake-build-debug /home/ron/Downloads/3DTestbed/cmake-build-debug /home/ron/Downloads/3DTestbed/cmake-build-debug/CMakeFiles/3DTestbed.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/3DTestbed.dir/depend
 

@@ -51,6 +51,7 @@ CMakeFiles/3DTestbed.dir/src/Application.cpp.o: ../include/tests/TestClearcolor.
 CMakeFiles/3DTestbed.dir/src/Application.cpp.o: ../include/tests/TestTexture2D.h
 CMakeFiles/3DTestbed.dir/src/Application.cpp.o: ../include/tests/geometries/geometry.h
 CMakeFiles/3DTestbed.dir/src/Application.cpp.o: ../include/tests/geometries/sphere.h
+CMakeFiles/3DTestbed.dir/src/Application.cpp.o: ../include/tests/geometries/triangle.h
 CMakeFiles/3DTestbed.dir/src/Application.cpp.o: ../include/vendor/ImGUI/imconfig.h
 CMakeFiles/3DTestbed.dir/src/Application.cpp.o: ../include/vendor/ImGUI/imgui.h
 CMakeFiles/3DTestbed.dir/src/Application.cpp.o: ../include/vendor/ImGUI/imgui_impl_glfw.h
@@ -114,6 +115,7 @@ CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: ../include/tests/Test.h
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: ../include/tests/Test3DScene.h
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: ../include/tests/geometries/geometry.h
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: ../include/tests/geometries/sphere.h
+CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: ../include/tests/geometries/triangle.h
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: ../include/vendor/ImGUI/imconfig.h
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: ../include/vendor/ImGUI/imgui.h
 CMakeFiles/3DTestbed.dir/src/tests/Test3DScene.cpp.o: ../src/tests/Test3DScene.cpp
@@ -154,4 +156,8 @@ CMakeFiles/3DTestbed.dir/src/tests/geometries/geometry.cpp.o: ../src/tests/geome
 CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o: ../include/tests/geometries/geometry.h
 CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o: ../include/tests/geometries/sphere.h
 CMakeFiles/3DTestbed.dir/src/tests/geometries/sphere.cpp.o: ../src/tests/geometries/sphere.cpp
+
+CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o: ../include/tests/geometries/geometry.h
+CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o: ../include/tests/geometries/triangle.h
+CMakeFiles/3DTestbed.dir/src/tests/geometries/triangle.cpp.o: ../src/tests/geometries/triangle.cpp
 

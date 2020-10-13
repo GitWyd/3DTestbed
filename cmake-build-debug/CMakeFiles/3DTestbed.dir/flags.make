@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = -DGLFW_DLL
 
-CXX_INCLUDES = -I/home/ron/CLionProjects/3DTestbed/cmake-build-debug 
+CXX_INCLUDES = -I/home/ron/Downloads/3DTestbed/cmake-build-debug 
 
