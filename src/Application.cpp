@@ -66,55 +66,6 @@ int main(void)
     glDebugMessageCallback( MessageCallback, 0 );
 
     { /* Separate context to ensure destruction of objects before program ends */
-        /*
-         * Initialize OpenGL
-         */
-        glShadeModel(GL_SMOOTH);
-
-        glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
-        glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
-
-        glEnable(GL_DEPTH_TEST);
-        glDepthRange(0.1,1.0);
-        glEnable(GL_LIGHTING);
-        //glEnable(GL_CULL_FACE);
-        //glCullFace(GL_BACK);
-        //glClearStencil(0);
-        glClearDepth(1.0f);
-        glDepthFunc(GL_LEQUAL);
-
-        glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-
-        /*
-         * Init Lights
-         */
-        /*
-        // set up light colors (ambient, diffuse, specular)
-        GLfloat lightKa[] = {.3f, .3f, .3f, 1.0f};  // ambient light
-        GLfloat lightKd[] = {.7f, .7f, .7f, 1.0f};  // diffuse light
-        GLfloat lightKs[] = {1, 1, 1, 1};           // specular light
-        glLightfv(GL_LIGHT0, GL_AMBIENT, lightKa);
-        glLightfv(GL_LIGHT0, GL_DIFFUSE, lightKd);
-        glLightfv(GL_LIGHT0, GL_SPECULAR, lightKs);
-         */
-        // position the light
-        float lightPos[4] = {0, 0, 1, 0}; // directional light
-        glLightfv(GL_LIGHT0, GL_POSITION, lightPos);
-
-        glEnable(GL_LIGHT0);                        // MUST enable each light source after configuration
-
-        /*
-         * Camera Settings
-         */
-        glMatrixMode(GL_MODELVIEW);
-        glLoadIdentity();
-
-
-        /*
-         * enable blending so alpha overlays are rendered properly
-         */
-        glEnable(GL_BLEND);
-        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
         Renderer renderer;
 
@@ -139,15 +90,14 @@ int main(void)
         menu->RegisterTest<test::Test3DScene>("3D Scene");
         //menu->RegisterTest<test::TestClearColor>("Clear Color");
         //menu->RegisterTest<test::TestTexture2D>("Texture 2D");
+        glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // background color
         while (!glfwWindowShouldClose(window))
         {
             /* Render here */
             renderer.Clear();
-            glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
             /*
              * imGUI start new frame
              * */
-            //New Frame
             ImGui_ImplOpenGL3_NewFrame();
             ImGui_ImplGlfw_NewFrame();
             ImGui::NewFrame();
@@ -184,7 +134,7 @@ int main(void)
         if (currentTest != menu){
             delete menu;
         }
-    }
+    } // end local context
     // Cleanup
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();

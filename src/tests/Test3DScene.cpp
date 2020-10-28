@@ -15,42 +15,24 @@ namespace test{
         /*
          * Initialize OpenGL
          */
+        /*
         glShadeModel(GL_SMOOTH);
 
         glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
         glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
-
+        */
         glEnable(GL_DEPTH_TEST);
         glDepthRange(0.1,1.0);
-        glEnable(GL_LIGHTING);
+        //glEnable(GL_LIGHTING);
         //glEnable(GL_CULL_FACE);
         //glCullFace(GL_BACK);
         //glClearStencil(0);
         glClearDepth(1.0f);
         glDepthFunc(GL_LEQUAL);
 
+        // could set to GL_FILL/GL_LINE e.g. colored in or wireframe
         glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-        /*
-         * Init Lights
-         */
-        // set up light colors (ambient, diffuse, specular)
-        GLfloat lightKa[] = {.3f, .3f, .3f, 1.0f};  // ambient light
-        GLfloat lightKd[] = {.7f, .7f, .7f, 1.0f};  // diffuse light
-        GLfloat lightKs[] = {1, 1, 1, 1};           // specular light
-        glLightfv(GL_LIGHT0, GL_AMBIENT, lightKa);
-        glLightfv(GL_LIGHT0, GL_DIFFUSE, lightKd);
-        glLightfv(GL_LIGHT0, GL_SPECULAR, lightKs);
-        // position the light
-        float lightPos[4] = {0, 0, 1, 0}; // directional light
-        glLightfv(GL_LIGHT0, GL_POSITION, lightPos);
 
-        glEnable(GL_LIGHT0);                        // MUST enable each light source after configuration
-
-        /*
-         * Camera Settings
-         */
-        glMatrixMode(GL_MODELVIEW);
-        glLoadIdentity();
         /*
          * Compute A Sphere
          */
@@ -60,8 +42,10 @@ namespace test{
         //titan::Triangle s1(glm::vec3(300, 0, 0), glm::vec3(300, 300, 0), glm::vec3(0, 300,0));
         s1.ComputeVertices();
         s1.ComputeIndices();
+        m_matrixModel = glm::translate(glm::mat4(1.0f), glm::vec3(300,300,0));
 
         // debug printout
+        /*
         std::cout << "nr_vertices: " << s1.m_vertices_count << "\t nr_indices: " << s1.m_indices_count << std::endl;
         std::cout << "s1.v_interleavedVertices.size(): " << s1.v_interleavedVertices.size() << std::endl;       
         for (int j = 0; j < s1.v_interleavedVertices.size()/6; j++){
@@ -71,6 +55,7 @@ namespace test{
             }
             std::cout << "]" << std::endl;
         }
+         */
 
         m_VAO = std::make_unique<VertexArray>();
         m_IBO = std::make_unique<IndexBuffer>(s1.v_indices.data(), s1.m_indices_count);
@@ -92,18 +77,17 @@ namespace test{
 
         float cameraDistance = 1000.0f;
         /* Set Vertex Shader Uniforms */
-        m_matrixView = glm::translate(glm::mat4(), glm::vec3(0,0,-cameraDistance));
+        m_matrixView = glm::translate(glm::mat4(1.0f), glm::vec3(0,0,-cameraDistance));
         m_theta = 0;
         m_View = glm::rotate(m_matrixView, m_theta, glm::vec3(0,0,1));
 
-        m_matrixModel = glm::mat4();
         m_matrixModelView = m_matrixView * m_matrixModel;
-        m_Proj = glm::ortho(0.0f, 1280.0f, 0.0f, 720.0f, -1000.0f, 1000.0f);
+        m_Proj = glm::ortho(0.0f, 1280.0f, 0.0f, 720.0f, 1.0f, 2000.0f);
         m_MVP = m_Proj * m_matrixModelView;
 
         m_matrixNormal = m_matrixModelView;
         m_matrixNormal[3] = glm::vec4(0.0f,0.0f, 0.0f, 1.0f);
-
+        /*
         float width = 1280;
         float height = 720;
         float aspect = (float)width / (float)height;
@@ -119,8 +103,7 @@ namespace test{
         m_matrixModelView = vMat*mMat;
         m_matrixNormal = m_matrixModelView;
         m_matrixNormal[3] = glm::vec4(0.0f,0.0f, 0.0f, 1.0f);
-
-
+        */
         m_Shader->SetUniformMat4f("matrixModelView", m_matrixModelView);
         m_Shader->SetUniformMat4f("matrixNormal", m_matrixNormal);
         m_Shader->SetUniformMat4f("matrixModelViewProjection", m_MVP);
